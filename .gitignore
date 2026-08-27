@@ -2,3 +2,7 @@ build/
 .venv/
 __pycache__/
 *.pyc
+aur/catpaper/
+aur/src/
+aur/pkg/
+aur/*.pkg.tar.zst
