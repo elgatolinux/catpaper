@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Catpaper
+Comment=Wallpaper picker with pywal (awww/swaybg/feh)
+Exec=catpaper
+Terminal=false
+Categories=Utility;Graphics;

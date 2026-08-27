@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Forzar el backend wayland si hay sesión wayland (evita XWayland opaco)
+if [ -z "$QT_QPA_PLATFORM" ] && [ -n "$WAYLAND_DISPLAY" ]; then
+    export QT_QPA_PLATFORM=wayland
+fi
+
+exec "$DIR/.venv/bin/python" "$DIR/main.py" "$@"

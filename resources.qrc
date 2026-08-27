@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file alias="main.qml">qml/main.qml</file>
+        <file alias="Scaler.qml">qml/Scaler.qml</file>
+        <file alias="WallpaperPicker.qml">qml/WallpaperPicker.qml</file>
+    </qresource>
+</RCC>

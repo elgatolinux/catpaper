@@ -1,0 +1,16 @@
+# Config de catpaper -> copiar a ~/.config/wallpaper_picker/config.conf
+
+# Directorio con tus wallpapers (si no se setea, usa $WALLPAPER_DIR o ~/Pictures/Wallpapers)
+#wallpaper_dir=/home/gator/Pictures/Wallpapers
+
+# Setter de wallpapers: auto | awww | swww | swaybg | feh | nitrogen
+#setter=auto
+
+# Comando custom para setear el fondo (reemplaza a los detectados). %s = ruta de la imagen.
+#wpaper_cmd=some-tool set %s
+
+# Comando extra a ejecutar después de wal -i (ej. refrescar tu configuración de temas)
+#reload_cmd=
+
+# Comando wal custom (por defecto: wal -i <img> -q). %s = ruta de la imagen.
+#wal_cmd=wal -i %s -q
